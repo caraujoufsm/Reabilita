@@ -63,3 +63,4 @@ $route['infra'] = 'pagina/infra';
 $route['ventosa'] = 'pagina/ventosa';
 $route['cinesio'] = 'pagina/cinesio';
 $route['dryneedling'] = 'pagina/dryneedling';
+$route['redirect'] = 'pagina/admin'; 

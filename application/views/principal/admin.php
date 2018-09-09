@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <!-- Latest compiled and minified CSS and JS-->
-<link rel="shortcut icon" type="image/x-icon" href="img/logo.png"/>
+<link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url();?>img/logo.png"/>
 <link rel="stylesheet" href="css/reset.css"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -29,6 +29,49 @@
     </div>
   </div>
 </nav>
-<h1>Aba admin</h1>
+   <?php if($this->session->flashdata("success")) : ?>
+   <p class="alert alert-success"><?= $this->session->flashdata("success") ?></p>
+   <?php endif ?>
+   
+   <?php if($this->session->flashdata("danger")) : ?>
+   <p class="alert alert-danger"><?= $this->session->flashdata("danger") ?></p>
+   <?php endif ?>
+   
+   <?php if($this->session->userdata("usuario_logado")) : ?>
+   <h1> Area restrita </h1>
+   <?= anchor("login/logout", "Sair", array("class" => "btn btn-primary")) ?>
+   
+   <?php else : ?>
+   
+   <h1>Login</h1>
+   <?php
+   echo form_open("login/autenticar");
+   
+   echo form_label("Email", "email");
+    echo form_input(array(
+        "name" => "email",
+        "id" => "email",
+        "class" => "form-control",
+        "maxlength" => "255"
+    ));
+
+    echo form_label("Senha", "senha");
+    echo form_password(array(
+        "name" => "senha",
+        "id" => "senha",
+        "class" => "form-control",
+        "maxlength" => "255"
+    ));
+    
+    echo form_button(array(
+        "class" => "btn btn-primary",
+        "content" => "Login",
+        "type" => "submit"
+    ));
+
+    echo form_close();
+    ?>
+   
+   <?php endif ?> 
 </body>
 </html>

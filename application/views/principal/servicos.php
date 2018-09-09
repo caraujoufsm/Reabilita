@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <!-- Latest compiled and minified CSS and JS -->
-<link rel="shortcut icon" type="image/x-icon" href="img/logo.png"/>
-<link rel="stylesheet" href="css/reset.css"/>
+<link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url();?>img/logo.png"/>
+<link rel="stylesheet" href="<?php echo base_url();?>css/reset.css"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
-<link rel="stylesheet" href="css/carousel.css"/>
+<link rel="stylesheet" href="<?php echo base_url();?>css/carousel.css"/>
     <title>Consultório Reabilita - Serviços</title>
 </head>
 <body>
@@ -49,42 +49,42 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/inicial.jpg" alt="Especializações" style="width:100%;">
+        <img src="<?php echo base_url();?>img/inicial.jpg" alt="Especializações" style="width:100%;">
       </div>
 
       <div class="carousel-item">
         <a href="rpg">
-        <img src="img/rpg.jpg" alt="RPG" style="width:100%;">
+        <img src="<?php echo base_url();?>img/rpg.jpg" alt="RPG" style="width:100%;">
       </div>
 
       <div class="carousel-item">
         <a href="cma">
-        <img src="img/cma.jpg" alt="CMA" style="width:100%;">
+        <img src="<?php echo base_url();?>img/cma.jpg" alt="CMA" style="width:100%;">
       </div>
     
       <div class="carousel-item">
         <a href="dryneedling">
-        <img src="img/dryneedling.jpg" alt="Dry Needling" style="width:100%;">
+        <img src="<?php echo base_url();?>img/dryneedling.jpg" alt="Dry Needling" style="width:100%;">
       </div>
   
       <div class="carousel-item">
         <a href="ventosa">
-        <img src="img/ventosa.jpg" alt="Ventosaterapia" style="width:100%;">
+        <img src="<?php echo base_url();?>img/ventosa.jpg" alt="Ventosaterapia" style="width:100%;">
       </div>
 
       <div class="carousel-item">
         <a href="cinesio">
-        <img src="img/cinesio.jpg" alt="Cinesioterapia" style="width:100%;">
+        <img src="<?php echo base_url();?>img/cinesio.jpg" alt="Cinesioterapia" style="width:100%;">
       </div>
 
       <div class="carousel-item">
         <a href="biofoto">
-        <img src="img/biofoto.jpg" alt="Biofotogrametria" style="width:100%;">
+        <img src="<?php echo base_url();?>img/biofoto.jpg" alt="Biofotogrametria" style="width:100%;">
       </div>
 
       <div class="carousel-item">
         <a href="infra">
-        <img src="img/infra.jpg" alt="Termografia Infravermelha" style="width:100%;">
+        <img src="<?php echo base_url();?>img/infra.jpg" alt="Termografia Infravermelha" style="width:100%;">
       </div>
 
     </div>

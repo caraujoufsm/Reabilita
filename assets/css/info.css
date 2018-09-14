@@ -1,0 +1,31 @@
+body {
+	background-color: #ffffff;
+	font-size: 120%;
+	line-height: 1.5;
+}
+
+h2{
+    font-size: 25px;
+}
+.icones-redes-sociais a {
+	width: 40px;
+	height: 40px;
+	display: block;
+	text-indent: -99999px;
+}
+
+.facebook {
+	background-image: url(../img/face.png);
+}
+
+.navegacao-site {
+    font-size: 15px;
+    float: right;
+	box-sizing: border-box;
+	position: relative;
+    top: 0;
+    right: 0;
+    border-left: 10px solid rgba(0,123,255,0.5);
+    border-bottom: 10px solid rgba(0,123,255,0.5);
+    border-top: 10px solid rgba(0,123,255,0.5);
+}

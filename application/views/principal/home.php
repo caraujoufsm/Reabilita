@@ -28,7 +28,17 @@
     </div>
   </div>
 </nav>
+
 <h1 align="center">Consultório Reabilita</h1>
-<img src="<?php echo base_url();?>assets/img/logo.png" class="img-fluid" alt="Logo do Consultório">
+<table>
+  <tr>
+    <td><img  width="300" height="200" src="<?php echo base_url();?>assets/img/logo.png"/></td>
+    <td> O Consultório Reabilitá foi fundado em <b>??/??/????</b> pelo fisioterapeuta Rodolfo Castro Araujo. </br>
+Após a conclusão do curso de fisioterapia pela Universidade Luterana do Brasil - Ulbra </br>
+Os atendimentos funcionam com horário marcado previamente com o fisioterapeuta.</br>
+O horário de funcionamento é de segunda a sexta das <b>09:00 às 12:00</b> e das <b>14:00 às 19:00</b>.</td> 
+  </tr>
+ 
+</table>
 </body>
 </html>

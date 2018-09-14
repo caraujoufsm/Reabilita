@@ -8,10 +8,11 @@
 <!-- Latest compiled and minified CSS and JS -->
 <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url();?>assets/img/logo.png"/>
 <link rel="stylesheet" href="<?php echo base_url();?>assets/css/reset.css"/>
-<link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="stylesheet" href="<?php echo base_url();?>assets/css/info.css">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="<?php echo base_url();?>assets/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+<script src="<?php echo base_url();?>assets/js/bootstrap.min.js"></script>    
     <title>Consultório Reabilita - Informações Adicionais</title>
 </head>
 <body>
@@ -29,6 +30,32 @@
     </div>
   </div>
 </nav>
-<h1>Aba Informações</h1>
+<h1 align="center">Informações sobre formação</h1>
+<table>
+  <tr>
+    <td> Rodolfo Castro Araujo é formado fisioterapeuta pela Universidade Luterana do Brasil - Ulbra </br>
+Os atendimentos funcionam com horário marcado previamente com o fisioterapeuta.</br>
+O horário de funcionamento é de segunda a sexta das <b>09:00 às 12:00</b> e das <b>14:00 às 19:00</b>.</td> 
+    <aside class="navegacao-site">
+                <h2 align="center">Informações de Contato</h2>
+                <nav>
+                    <ul>
+                        <li><b>Cidade:</b> Rosário do Sul</li>
+                        <li><b>Bairro:</b> Centro</li>
+                        <li><b>Endereço:</b> Rua 7 de Setembro</li>
+                        <li><b>Número:</b> ????</li>
+                        <li><b>Sala:</b> ??</li>
+                        <li><b>Telefone:</b> (55)99920-3050</li>
+                    </ul>
+                </nav>
+                <ul class="icones-redes-sociais">
+                    <li>
+                        <a class="facebook" href="https://www.facebook.com/www.consultorioreabilita.com.br/">
+                            Facebook
+                        </a>
+                    </li>
+                </ul>
+    </aside>
+    </tr>
 </body>
 </html>

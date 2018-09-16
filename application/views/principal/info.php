@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="<?php echo base_url();?>assets/css/reset.css"/>
 <link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="stylesheet" href="<?php echo base_url();?>assets/css/site.css">
 <link rel="stylesheet" href="<?php echo base_url();?>assets/css/info.css">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="<?php echo base_url();?>assets/js/bootstrap.min.js"></script>    
@@ -34,17 +35,17 @@
 <table>
   <tr>
     <td> Rodolfo Castro Araujo é formado fisioterapeuta pela Universidade Luterana do Brasil - Ulbra </br>
-Os atendimentos funcionam com horário marcado previamente com o fisioterapeuta.</br>
-O horário de funcionamento é de segunda a sexta das <b>09:00 às 12:00</b> e das <b>14:00 às 19:00</b>.</td> 
-    <aside class="navegacao-site">
+       Fez diversos cursos de formação, os quais podem ser vistos <a href="servicos">aqui</a>.</br>
+O horário de funcionamento é de segunda a sexta das <b>09:00 às 12:00</b> e das <b>14:00 às 19:00</b>.</td>   
+  <aside class="navegacao-site">
                 <h2 align="center">Informações de Contato</h2>
                 <nav>
                     <ul>
                         <li><b>Cidade:</b> Rosário do Sul</li>
                         <li><b>Bairro:</b> Centro</li>
                         <li><b>Endereço:</b> Rua 7 de Setembro</li>
-                        <li><b>Número:</b> ????</li>
-                        <li><b>Sala:</b> ??</li>
+                        <li><b>Número:</b> 2240</li>
+                        <li><b>Sala:</b> 102</li>
                         <li><b>Telefone:</b> (55)99920-3050</li>
                     </ul>
                 </nav>
@@ -57,5 +58,9 @@ O horário de funcionamento é de segunda a sexta das <b>09:00 às 12:00</b> e d
                 </ul>
     </aside>
     </tr>
+</table>
+<footer class="rodape-pagina">
+			&copy; Cássio Araujo 2018
+</footer>
 </body>
 </html>

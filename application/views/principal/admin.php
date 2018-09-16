@@ -8,6 +8,7 @@
 <!-- Latest compiled and minified CSS and JS-->
 <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url();?>assets/img/logo.png"/>
 <link rel="stylesheet" href="<?php echo base_url();?>assets/css/reset.css"/>
+<link rel="stylesheet" href="<?php echo base_url();?>assets/css/site.css"/>
 <link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -72,6 +73,9 @@
     echo form_close();
     ?>
    
-   <?php endif ?> 
+   <?php endif ?>
+   <footer class="rodape-pagina">
+			&copy; Cássio Araujo 2018
+</footer>
 </body>
 </html>

@@ -9,6 +9,7 @@
 <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url();?>assets/img/logo.png"/>
 <link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="stylesheet" href="<?php echo base_url();?>assets/css/site.css"/>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="<?php echo base_url();?>assets/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <title>Consultório Reabilita - Home</title>
@@ -33,12 +34,15 @@
 <table>
   <tr>
     <td><img  width="300" height="200" src="<?php echo base_url();?>assets/img/logo.png"/></td>
-    <td> O Consultório Reabilitá foi fundado em <b>??/??/????</b> pelo fisioterapeuta Rodolfo Castro Araujo. </br>
+    <td> O Consultório Reabilitá foi fundado em <b>10/11/2015</b> pelo fisioterapeuta Rodolfo Castro Araujo. </br>
 Após a conclusão do curso de fisioterapia pela Universidade Luterana do Brasil - Ulbra </br>
 Os atendimentos funcionam com horário marcado previamente com o fisioterapeuta.</br>
 O horário de funcionamento é de segunda a sexta das <b>09:00 às 12:00</b> e das <b>14:00 às 19:00</b>.</td> 
   </tr>
  
 </table>
+<footer class="rodape-pagina">
+			&copy; Cássio Araujo 2018
+</footer>
 </body>
 </html>

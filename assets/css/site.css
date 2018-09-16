@@ -1,0 +1,10 @@
+.rodape-pagina {
+	padding: 20px;
+	background-color: rgba(0,123,255,0.5);
+	color: #F2FFFC;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}

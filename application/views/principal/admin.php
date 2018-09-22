@@ -39,8 +39,7 @@
    <?php endif ?>
    
    <?php if($this->session->userdata("usuario_logado")) : ?>
-   <h1> Area restrita </h1>
-   <?= anchor("login/logout", "Sair", array("class" => "btn btn-primary")) ?>
+   <?php redirect('pagina/restrito') ?>
    
    <?php else : ?>
    

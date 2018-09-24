@@ -1,8 +1,9 @@
 <?php
+// Controller utilizado no login
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Login extends CI_Controller {
-    
+    // Classe autenticação que utiliza a model usuarios_model
       public function autenticar()
 	{
 		$this->load->model('usuarios_model');
@@ -17,7 +18,7 @@ class Login extends CI_Controller {
             }
             redirect('/pagina/admin');
       }
-      
+      // Classe para efetuar o logout
       public function logout(){
          $this->session->unset_userdata("usuario_logado");
          $this->session->flashdata("success", "Deslogado com sucesso");

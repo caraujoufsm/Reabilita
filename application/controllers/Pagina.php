@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
+// Controller Base do sistema onde encontram-se as direções de views
 class Pagina extends CI_Controller {
 	
 	function __construct(){

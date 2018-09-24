@@ -52,6 +52,7 @@
                               <div class="overlay">
                                  <div class="text">FORMAÇÕES</div>
                               </div>
+                              <p><b>Aqui você verá alguns serviços disponíveis em nosso consultório</b></p>
                            </div>
                            <div class="col-md-3 eckcon">
                               <img class="mediasliderimage" src="<?php echo base_url(); ?>/assets/img/rpg.jpg" alt="RPG" style="width:100%; height: 100px">

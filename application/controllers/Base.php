@@ -1,4 +1,5 @@
 <?php
+// Controller utilizado apenas como base para criação dos novos
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Base extends CI_Controller {

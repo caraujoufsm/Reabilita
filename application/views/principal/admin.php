@@ -30,6 +30,7 @@
     </div>
   </div>
 </nav>
+   <?php // Login da página principal ?>
    <?php if($this->session->flashdata("success")) : ?>
    <p class="alert alert-success"><?= $this->session->flashdata("success") ?></p>
    <?php endif ?>
@@ -37,12 +38,12 @@
    <?php if($this->session->flashdata("danger")) : ?>
    <p class="alert alert-danger"><?= $this->session->flashdata("danger") ?></p>
    <?php endif ?>
-   
+   <?php // Verifica se o usuário está logado e redireciona para a parte restrita ?>
    <?php if($this->session->userdata("usuario_logado")) : ?>
    <?php redirect('pagina/restrito') ?>
    
    <?php else : ?>
-   
+   <?php // Caso não aceite o login, fica na página atual?>
    <h1>Login</h1>
    <?php
    echo form_open("login/autenticar");
